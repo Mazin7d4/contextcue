@@ -1,0 +1,8 @@
+{
+  "project": {
+    "identifier": "contextcue"
+  },
+  "platform": {
+    "default": "fire_os"
+  }
+}

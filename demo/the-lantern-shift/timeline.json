@@ -1,0 +1,276 @@
+{
+  "media": {
+    "id": "lantern-shift",
+    "title": "The Lantern Shift",
+    "durationMs": 74000,
+    "rights": "Original short created for ContextCue. The project owns the picture, captions, and story. Safe to show in the hackathon submission."
+  },
+  "scenes": [
+    {
+      "id": "platform",
+      "mediaId": "lantern-shift",
+      "title": "Platform three",
+      "startsAtMs": 0,
+      "endsAtMs": 26000
+    },
+    {
+      "id": "delay",
+      "mediaId": "lantern-shift",
+      "title": "The delay",
+      "startsAtMs": 26000,
+      "endsAtMs": 42000
+    },
+    {
+      "id": "tunnel",
+      "mediaId": "lantern-shift",
+      "title": "The tunnel",
+      "startsAtMs": 42000,
+      "endsAtMs": 56000
+    },
+    {
+      "id": "reveal",
+      "mediaId": "lantern-shift",
+      "title": "The photograph",
+      "startsAtMs": 56000,
+      "endsAtMs": 74000
+    }
+  ],
+  "characters": [
+    {
+      "id": "maya",
+      "mediaId": "lantern-shift",
+      "name": "Maya"
+    },
+    {
+      "id": "jonah",
+      "mediaId": "lantern-shift",
+      "name": "Jonah"
+    },
+    {
+      "id": "leo",
+      "mediaId": "lantern-shift",
+      "name": "Leo"
+    }
+  ],
+  "cues": [
+    {
+      "id": "cue-0",
+      "mediaId": "lantern-shift",
+      "startsAtMs": 0,
+      "endsAtMs": 12000,
+      "speaker": "Maya",
+      "text": "Platform three. Leo said not to be late."
+    },
+    {
+      "id": "cue-12000",
+      "mediaId": "lantern-shift",
+      "startsAtMs": 12000,
+      "endsAtMs": 26000,
+      "speaker": "Jonah",
+      "text": "You look soaked. I used to work the night shift here."
+    },
+    {
+      "id": "cue-26000",
+      "mediaId": "lantern-shift",
+      "startsAtMs": 26000,
+      "endsAtMs": 42000,
+      "speaker": "Maya",
+      "text": "That's Leo's train. He always takes the nine-forty."
+    },
+    {
+      "id": "cue-42000",
+      "mediaId": "lantern-shift",
+      "startsAtMs": 42000,
+      "endsAtMs": 56000,
+      "speaker": "Jonah",
+      "text": "The service tunnel under track two is how someone leaves without being seen."
+    },
+    {
+      "id": "cue-56000",
+      "mediaId": "lantern-shift",
+      "startsAtMs": 56000,
+      "endsAtMs": 74000,
+      "speaker": "Jonah",
+      "text": "That picture is us. I'm Leo. I changed my name. I had to know if you would still recognize me."
+    }
+  ],
+  "facts": [
+    {
+      "id": "cue-0",
+      "mediaId": "lantern-shift",
+      "kind": "dialogue",
+      "text": "Maya: Platform three. Leo said not to be late.",
+      "revealedAtMs": 0,
+      "startsAtMs": 0,
+      "endsAtMs": 12000,
+      "sourceRefs": [
+        "vtt:cue-0"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "leo-brother",
+      "mediaId": "lantern-shift",
+      "kind": "relationship",
+      "text": "Leo is Maya's brother. She came to this platform to meet him.",
+      "revealedAtMs": 0,
+      "sceneId": "platform",
+      "entityIds": [
+        "maya",
+        "leo"
+      ],
+      "sourceRefs": [
+        "corrections:leo-brother"
+      ]
+    },
+    {
+      "id": "maya-waiting",
+      "mediaId": "lantern-shift",
+      "kind": "character",
+      "text": "Maya is on platform three because Leo told her not to be late.",
+      "revealedAtMs": 0,
+      "sceneId": "platform",
+      "entityIds": [
+        "maya",
+        "leo"
+      ],
+      "sourceRefs": [
+        "corrections:maya-waiting"
+      ]
+    },
+    {
+      "id": "cue-12000",
+      "mediaId": "lantern-shift",
+      "kind": "dialogue",
+      "text": "Jonah: You look soaked. I used to work the night shift here.",
+      "revealedAtMs": 12000,
+      "startsAtMs": 12000,
+      "endsAtMs": 26000,
+      "sourceRefs": [
+        "vtt:cue-12000"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "jonah-coat",
+      "mediaId": "lantern-shift",
+      "kind": "character",
+      "text": "Jonah is a man on the platform who offers Maya his coat because she is soaked.",
+      "revealedAtMs": 12000,
+      "sceneId": "platform",
+      "entityIds": [
+        "jonah",
+        "maya"
+      ],
+      "sourceRefs": [
+        "corrections:jonah-coat"
+      ]
+    },
+    {
+      "id": "jonah-shift",
+      "mediaId": "lantern-shift",
+      "kind": "character",
+      "text": "Jonah says he used to work the night shift at this station.",
+      "revealedAtMs": 18000,
+      "sceneId": "platform",
+      "entityIds": [
+        "jonah"
+      ],
+      "sourceRefs": [
+        "corrections:jonah-shift"
+      ]
+    },
+    {
+      "id": "cue-26000",
+      "mediaId": "lantern-shift",
+      "kind": "dialogue",
+      "text": "Maya: That's Leo's train. He always takes the nine-forty.",
+      "revealedAtMs": 26000,
+      "startsAtMs": 26000,
+      "endsAtMs": 42000,
+      "sourceRefs": [
+        "vtt:cue-26000"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "train-delay",
+      "mediaId": "lantern-shift",
+      "kind": "event",
+      "text": "The nine-forty train is delayed.",
+      "revealedAtMs": 26000,
+      "sceneId": "delay",
+      "sourceRefs": [
+        "corrections:train-delay"
+      ]
+    },
+    {
+      "id": "leo-train",
+      "mediaId": "lantern-shift",
+      "kind": "goal",
+      "text": "Maya expects Leo on the nine-forty. That is the train he always takes.",
+      "revealedAtMs": 34000,
+      "sceneId": "delay",
+      "entityIds": [
+        "maya",
+        "leo"
+      ],
+      "sourceRefs": [
+        "corrections:leo-train"
+      ]
+    },
+    {
+      "id": "cue-42000",
+      "mediaId": "lantern-shift",
+      "kind": "dialogue",
+      "text": "Jonah: The service tunnel under track two is how someone leaves without being seen.",
+      "revealedAtMs": 42000,
+      "startsAtMs": 42000,
+      "endsAtMs": 56000,
+      "sourceRefs": [
+        "vtt:cue-42000"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "tunnel",
+      "mediaId": "lantern-shift",
+      "kind": "event",
+      "text": "Jonah says the service tunnel under track two is how someone leaves without being seen.",
+      "revealedAtMs": 44000,
+      "sceneId": "tunnel",
+      "entityIds": [
+        "jonah"
+      ],
+      "sourceRefs": [
+        "corrections:tunnel"
+      ]
+    },
+    {
+      "id": "cue-56000",
+      "mediaId": "lantern-shift",
+      "kind": "relationship",
+      "text": "Jonah: That picture is us. I'm Leo. I changed my name. I had to know if you would still recognize me.",
+      "revealedAtMs": 56000,
+      "startsAtMs": 56000,
+      "endsAtMs": 74000,
+      "sourceRefs": [
+        "vtt:cue-56000"
+      ],
+      "confidence": 1,
+      "entityIds": [
+        "jonah",
+        "leo",
+        "maya"
+      ],
+      "sceneId": "reveal",
+      "leakGuards": [
+        "i'm leo",
+        "i am leo",
+        "jonah is leo",
+        "changed my name",
+        "still recognize me"
+      ]
+    }
+  ]
+}

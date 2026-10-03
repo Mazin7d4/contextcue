@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+apps/firetv/.gradle/
+apps/firetv/build/
+apps/firetv/app/build/
+apps/firetv/local.properties
+apps/firetv/.idea/
+infra/node_modules/
+infra/cdk.out/
+infra/dist/
+apps/alexa-sim/node_modules/
+apps/alexa-sim/dist/
+data/runtime-state.json
+.android-cmdline/
