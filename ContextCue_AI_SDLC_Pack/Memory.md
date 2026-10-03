@@ -86,7 +86,8 @@ At the end of every meaningful coding session, replace/update the sections below
 - Emulator run used Pixel Tablet, not an Android TV system image. No `sdkmanager` on this machine.
 - Vega Virtual Device cannot be installed here.
 - Recap card is readable but still a little long, and the stock screenshot is at the end of the film, so the reveal is allowed.
-- No submission video yet. No GitHub remote yet at the time of this note.
+- No submission video yet.
+- GitHub: https://github.com/Mazin7d4/contextcue
 
 ### Material decisions made during implementation
 

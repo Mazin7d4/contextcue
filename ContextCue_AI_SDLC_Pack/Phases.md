@@ -18,7 +18,7 @@ Tasks:
 - [x] Confirm MCP protocol/transport requirement.
 - [x] Confirm current Vega/ADBT setup instructions and supported host OS.
 - [x] Inspect available AWS account/region/model access.
-- [ ] Verify GitHub remote or prepare repo for GitHub.
+- [x] Verify GitHub remote or prepare repo for GitHub.
 - [x] Record any changed external requirement in the appropriate docs and `Sources.md`.
 
 Done when:
